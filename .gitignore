@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados completos (não versionados - ver data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+
+# Previsões geradas (podem ter dezenas de milhares de linhas)
+results/**/predictions_new.csv
+
+# Variáveis de ambiente / segredos
+.env
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
